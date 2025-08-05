@@ -15,16 +15,16 @@ function MyHeader() {
                 Home
               </Link>
               <Nav.Link href="#" className="">
-                TV Shows
+                Space Safety
               </Nav.Link>
               <Nav.Link href="#" className="">
-                Movies
+                Application
               </Nav.Link>
               <Nav.Link href="#" className="">
-                Recently Added
+                Science & Exploration
               </Nav.Link>
               <Nav.Link href="#" className="">
-                My List
+                About
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
