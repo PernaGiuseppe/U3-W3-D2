@@ -1,11 +1,11 @@
-import { Navbar, Container, Nav, Button, Image } from 'react-bootstrap'
+import { Navbar, Container, Nav, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 function MyHeader() {
   return (
     <header>
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="#" className="me-5">
             <Image height="40" src="/img.png" alt="SpaceLogo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarSupportedContent" />
@@ -27,13 +27,6 @@ function MyHeader() {
                 My List
               </Nav.Link>
             </Nav>
-            <Button
-              id="edit-button"
-              variant="success"
-              className="rounded-0 me-lg-4 me-sm-2 me-md-3 text-black fw-semibold mb-2 mb-lg-0"
-            >
-              Profile
-            </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

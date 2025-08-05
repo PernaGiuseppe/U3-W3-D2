@@ -13,7 +13,7 @@ function App() {
         <MyHeader />
         <Routes>
           <Route path="/" element={<AllTheFlights />} />
-          <Route path="/details" element={<SingleFlight />} />
+          <Route path="/details/:id" element={<SingleFlight />} />
         </Routes>
         <MyFooter />
       </BrowserRouter>
